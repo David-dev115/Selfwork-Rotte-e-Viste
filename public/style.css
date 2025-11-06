@@ -1,0 +1,61 @@
+
+
+*{
+  font-family: "Stack Sans Notch", sans-serif;
+}
+
+
+.css-header{
+    height: 100vh;
+    background-image: url('/media/header.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    justify-content: space-around;
+}
+
+:root{
+    --firstColor:rgb(182, 173, 158);
+    --secondColor:rgb(233, 21, 41);
+}
+
+
+.colorFirst{
+    background-color:var(--firstColor)
+}
+
+
+.colorSecond{
+    background-color:var(--secondColor)
+}
+
+
+.textFirst{
+    color:var(--firstColor)
+}
+
+
+.textSecond{
+    color:var(--secondColor)
+}
+
+
+/* navbar */
+
+.navbar{
+    background-color: rgb(255, 218, 173);
+}
+
+.nav-link{
+    color: black;
+    color:var(--firstColor);
+    font-weight: 500;
+}
+
+.logo{
+    height: 40px;
+}
+
+.nav-link:hover{
+    color:var(--secondColor);
+}
