@@ -1,61 +1,60 @@
 
 
 *{
-  font-family: "Stack Sans Notch", sans-serif;
+    font-family: "Work Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Amatic SC", sans-serif;
 }
 
 
-.css-header{
-    height: 100vh;
-    background-image: url('/media/header.jpg');
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
-    justify-content: space-around;
+:root {
+    --bianco_principale: rgb(250, 245, 235);
+    --sfondo_principale: rgb(243, 233, 220);
+    --testo_principale: rgb(59, 47, 47);
+    --accento_1: rgb(216, 124, 71);
+    --accento_2: rgb(163, 177, 138);
+    --colore_secondario: rgb(107, 107, 107);
+
 }
 
-:root{
-    --firstColor:rgb(182, 173, 158);
-    --secondColor:rgb(233, 21, 41);
+.bianco{
+    background-color: var(--bianco_principale);
 }
 
-
-.colorFirst{
-    background-color:var(--firstColor)
-}
-
-
-.colorSecond{
-    background-color:var(--secondColor)
+.beige{
+    background-color: var(--sfondo_principale);
 }
 
 
-.textFirst{
-    color:var(--firstColor)
+
+/* titolo */
+.box_1{
+    height: 140px;
 }
 
-
-.textSecond{
-    color:var(--secondColor)
+.titolo{
+    color:var(--testo_principale);
+    font-size:60px;
 }
 
-
-/* navbar */
-
-.navbar{
-    background-color: rgb(255, 218, 173);
+.slogan{
+    color:var(--testo_principale);
+    font-style: italic;
 }
+
+/* nav */
 
 .nav-link{
-    color: black;
-    color:var(--firstColor);
-    font-weight: 500;
+    color:var(--testo_principale);
+    font-size:15px;
+    font-style: italic;
+
+    
 }
 
-.logo{
-    height: 40px;
-}
-
-.nav-link:hover{
-    color:var(--secondColor);
+.nav-item-center{
+    margin-left: 100px;
+    margin-right: 100px;
 }
