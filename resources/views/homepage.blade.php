@@ -74,7 +74,31 @@
 
     {{-- fine navbar --}}
 
-    {{-- 1 --}}
+    <div class="container-fluid">
+
+        <div class="row box_2">
+            <div class="col-12"></div>
+        </div>
+
+    </div>
+
+
+    <header>
+
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="row vh-100 box_3 mt-3">
+                <div class="col-12 vh-100 d-flex justify-content-center align-items-center">
+                    <div class="box_4 " ></div>
+                    
+                    
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </header>
 
 
 
