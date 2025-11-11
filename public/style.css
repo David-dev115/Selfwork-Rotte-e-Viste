@@ -88,7 +88,6 @@ body{
 
 
 
-
 .box_4{
     background-color: rgba(250, 245, 235 , 0.75 );
     height: 200px;
@@ -106,6 +105,14 @@ body{
 
   .box_3{
     background-position:top;
-    
+  }
+
+  .box_4_b{
+    height: 200px;
+}
+
+  .box_4{
+    height: 80px;
+    width: 200px;
   }
 }

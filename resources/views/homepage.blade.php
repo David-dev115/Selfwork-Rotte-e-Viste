@@ -87,8 +87,10 @@
 
         <div class="container-fluid d-flex justify-content-center">
             <div class="row vh-100 box_3 mt-3">
-                <div class="col-12 vh-100 d-flex justify-content-center align-items-center">
-                    <div class="box_4 " ></div>
+                <div class="col-12 d-flex justify-content-center align-items-center box_4_b">
+                    <div class="box_4 d-flex justify-content-center align-items-center ">
+                        <h3>Il punto di riferimento per tutti gli hobbysti del fai da te</h3>
+                    </div>
                     
                     
 
