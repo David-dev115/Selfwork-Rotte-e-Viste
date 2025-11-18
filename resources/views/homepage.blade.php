@@ -74,6 +74,8 @@
 
     {{-- fine navbar --}}
 
+
+    {{-- rigo grigio separatore --}}
     <div class="container-fluid">
 
         <div class="row box_2">
@@ -85,14 +87,17 @@
 
     <header>
 
-        <div class="container-fluid d-flex justify-content-center">
+        <div class="container-fluid d-flex justify-content-center box_6">
             <div class="row vh-100 box_3 mt-3">
                 <div class="col-12 d-flex justify-content-center align-items-center box_4_b">
-                    <div class="box_4 d-flex justify-content-center align-items-center ">
+                    <div class="box_4">
                         <h3>Il punto di riferimento per tutti gli hobbysti del fai da te</h3>
+                        <p class="par_1">Un nuovo tutorial ogni settimana, visita la sezione ARTICOLI per rimanere
+                            sempre aggiornato</p>
+                        <button type="button" class="btn btn_1">ARTICOLI</button>
                     </div>
-                    
-                    
+
+
 
                 </div>
             </div>
@@ -103,7 +108,137 @@
     </header>
 
 
+    {{-- rigo separatore tra header e section --}}
+    <div class="container-fluid beige">
 
+        <div class="row box_5">
+            <div class="col-12 d-flex justify-content-center">
+                <h3 class="title_3">IN EVIDENZA</h3>
+            </div>
+        </div>
+
+    </div>
+
+
+    <section class="beige">
+
+        <article>
+
+            <div class="contaioner-fluid">
+                <div class="row d-flex justify-content-center align-items-center ">
+
+
+                    <div class=" col-12 col-md-6 box_8">
+
+                    </div>
+
+                    <div class=" col-12 col-md-6 box_9 bianco">
+                        <h3>Lavori in Legno</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ad nemo in sit! Tempore at
+                            veniam quo voluptas maxime necessitatibus dicta rerum asperiores cum ex, sint minima
+                            consectetur quasi reprehenderit!</p>
+                        <button type="button" class="btn btn_1">vai al tutorial</button>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </article>
+
+
+        {{-- rigo separatore --}}
+        <div class="container-fluid beige">
+
+            <div class="row box_5">
+                <div class="col-12 d-flex justify-content-center">
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <article>
+
+            <div class="contaioner-fluid">
+                <div class="row d-flex justify-content-center align-items-center ">
+
+
+                    <div class=" col-12 col-md-6 box_11">
+
+                    </div>
+
+                    <div class=" col-12 col-md-6 box_12 bianco">
+                        <h3>Lavori in ferro</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ad nemo in sit! Tempore at
+                            veniam quo voluptas maxime necessitatibus dicta rerum asperiores cum ex, sint minima
+                            consectetur quasi reprehenderit!</p>
+                        <button type="button" class="btn btn_1">vai al tutorial</button>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </article>
+
+    </section>
+
+
+    {{-- rigo separatore --}}
+    <div class="container-fluid beige">
+
+        <div class="row box_5">
+            <div class="col-12 d-flex justify-content-center">
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- footer -->
+
+    <footer class="container-fluid footer_x">
+
+        <div class="row">
+
+            <div class="col-12 col-md-9">
+
+                <p class="">Indirizzo Via Ugo Foscolo, 100</p>
+                <p>tel. +39 012 01234567</p>
+                <p>P.IVA. 100200300</p>
+
+
+            </div>
+
+            <div class="col-12 col-md-3 ">
+
+                <p class="text-center mt-4 ">seguici su:</p>
+
+                <div class="d-flex align-items-center justify-content-evenly">
+
+                    <a href="https://google.com"> <i class="fa-brands fa-facebook fa-2x"></i> </a>
+                    <a href="https://google.com"> <i class="fa-brands fa-twitter fa-2x"></i> </a>
+                    <a href="https://google.com"> <i class="fa-brands fa-youtube fa-2x"></i> </a>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </footer>
 
 
 
@@ -119,6 +254,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
     </script>
+
+
+    <!-- JS fontawesome-->
+    <script src="https://kit.fontawesome.com/9339ce24f2.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
