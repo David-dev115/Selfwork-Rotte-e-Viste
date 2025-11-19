@@ -91,6 +91,11 @@ body {
 }
 
 
+.box_3_d{
+    background-image: url(/media/chi_siamo.PNG);
+}
+
+
 
 .box_4 {
     background-color: rgba(250, 245, 235, 0.75);
@@ -148,7 +153,8 @@ body {
 }
 
 
-.box_9 , .box_12 {
+.box_9,
+.box_12 {
 
     /* height: 500; */
     width: 700px;
@@ -175,13 +181,15 @@ body {
 
 }
 
-.footer_x{
+.footer_x {
     background-color: var(--accento_2);
     height: 200px;
 
 }
 
-.fa-facebook , .fa-twitter , .fa-youtube {
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
     color: var(--accento_1);
 }
 
@@ -228,11 +236,28 @@ body {
     }
 
 
-    .box_8 , .box_9 , .box_11 , .box_12 {
+    .box_8,
+    .box_9,
+    .box_11,
+    .box_12 {
 
         /* height: 500; */
         width: 350px;
 
+    }
+
+
+    .footer_x {
+        height: 300px;
+
+    }
+
+    .box_5_b{
+        height: 50px;
+    }
+
+    .box_5_c{
+        height: 30px;
     }
 
 }

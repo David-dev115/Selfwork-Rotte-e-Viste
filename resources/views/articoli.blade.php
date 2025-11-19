@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -85,36 +86,15 @@
     </div>
 
 
-    <header>
-
-        <div class="container-fluid d-flex justify-content-center box_6">
-            <div class="row vh-100 box_3 mt-3">
-                <div class="col-12 d-flex justify-content-center align-items-center box_4_b">
-                    <div class="box_4">
-                        <h3>Il punto di riferimento per tutti gli hobbysti del fai da te</h3>
-                        <p class="par_1">Un nuovo tutorial ogni settimana, visita la sezione ARTICOLI per rimanere
-                            sempre aggiornato</p>
-                            <a href="/articoli"><button type="button" class="btn btn_1">ARTICOLI</button></a>
-                        
-                    </div>
 
 
 
-                </div>
-            </div>
-        </div>
-
-
-
-    </header>
-
-
-    {{-- rigo separatore tra header e section --}}
+    {{-- rigo separatore  --}}
     <div class="container-fluid beige">
 
         <div class="row box_5">
             <div class="col-12 d-flex justify-content-center">
-                <h3 class="title_3">IN EVIDENZA</h3>
+                <h3 class="title_3">tutti gli articoli</h3>
             </div>
         </div>
 
@@ -159,7 +139,6 @@
             </div>
 
         </div>
-
 
 
         <article>

@@ -85,115 +85,46 @@
     </div>
 
 
-    <header>
-
-        <div class="container-fluid d-flex justify-content-center box_6">
-            <div class="row vh-100 box_3 mt-3">
-                <div class="col-12 d-flex justify-content-center align-items-center box_4_b">
-                    <div class="box_4">
-                        <h3>Il punto di riferimento per tutti gli hobbysti del fai da te</h3>
-                        <p class="par_1">Un nuovo tutorial ogni settimana, visita la sezione ARTICOLI per rimanere
-                            sempre aggiornato</p>
-                            <a href="/articoli"><button type="button" class="btn btn_1">ARTICOLI</button></a>
-                        
-                    </div>
-
-
-
-                </div>
-            </div>
-        </div>
-
-
-
-    </header>
-
-
     {{-- rigo separatore tra header e section --}}
     <div class="container-fluid beige">
 
-        <div class="row box_5">
+        <div class="row box_5 box_5_b">
             <div class="col-12 d-flex justify-content-center">
-                <h3 class="title_3">IN EVIDENZA</h3>
+                <h3 class="title_3">CHI SIAMO</h3>
             </div>
         </div>
 
     </div>
 
 
-    <section class="beige">
+    <section>
 
-        <article>
-
-            <div class="contaioner-fluid">
-                <div class="row d-flex justify-content-center align-items-center ">
-
-
-                    <div class=" col-12 col-md-6 box_8">
-
-                    </div>
-
-                    <div class=" col-12 col-md-6 box_9 bianco">
-                        <h3>Lavori in Legno</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ad nemo in sit! Tempore at
-                            veniam quo voluptas maxime necessitatibus dicta rerum asperiores cum ex, sint minima
-                            consectetur quasi reprehenderit!</p>
-                        <button type="button" class="btn btn_1">vai al tutorial</button>
+        <div class="container-fluid d-flex justify-content-center box_6">
+            <div class="row vh-100 box_3 box_3_d mt-3">
+                <div class="col-12 d-flex justify-content-center align-items-center box_4_b">
+                    <div class="box_4">
+                        <h3>Il nostro team</h3>
+                        <p class="par_1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore veniam sequi ratione optio ipsam qui fuga, commodi nobis obcaecati officia delectus odio, officiis porro deserunt dolorum nemo eligendi. Nesciunt, ducimus.</p>
+                        
 
                     </div>
 
 
-                </div>
-            </div>
-
-        </article>
-
-
-        {{-- rigo separatore --}}
-        <div class="container-fluid beige">
-
-            <div class="row box_5">
-                <div class="col-12 d-flex justify-content-center">
 
                 </div>
             </div>
-
         </div>
 
 
 
-        <article>
-
-            <div class="contaioner-fluid">
-                <div class="row d-flex justify-content-center align-items-center ">
-
-
-                    <div class=" col-12 col-md-6 box_11">
-
-                    </div>
-
-                    <div class=" col-12 col-md-6 box_12 bianco">
-                        <h3>Lavori in ferro</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ad nemo in sit! Tempore at
-                            veniam quo voluptas maxime necessitatibus dicta rerum asperiores cum ex, sint minima
-                            consectetur quasi reprehenderit!</p>
-                        <button type="button" class="btn btn_1">vai al tutorial</button>
-
-                    </div>
-
-
-                </div>
-            </div>
-
-        </article>
-
     </section>
+
 
 
     {{-- rigo separatore --}}
     <div class="container-fluid beige">
 
-        <div class="row box_5">
+        <div class="row box_5 box_5_c">
             <div class="col-12 d-flex justify-content-center">
 
             </div>
